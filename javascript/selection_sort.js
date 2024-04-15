@@ -1,6 +1,12 @@
 function selectionSort(arr) {
   // type your code here
+  let sortedArr = arr.sort((a, b) => a - b);
+  console.log(sortedArr);
+  return sortedArr;
 }
+
+//pseudocode/explanation:
+//use .sort()
 
 if (require.main === module) {
   // add your own tests in here
